@@ -1,9 +1,6 @@
 package org.edu.srp;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Person {
@@ -13,6 +10,7 @@ public class Person {
 	private long id;
 
 	private String firstName;
+
 	private String lastName;
 
 	public String getFirstName() {
