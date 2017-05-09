@@ -1,0 +1,1 @@
+insert into Device (id, name, type) VALUES (1, 'Olafs IPhone', 'iphone 4s');
