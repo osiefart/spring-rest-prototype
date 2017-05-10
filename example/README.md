@@ -9,3 +9,8 @@ Pushy ?
 
 Feign:
 http://cloud.spring.io/spring-cloud-netflix/spring-cloud-netflix.html#spring-cloud-feign
+
+
+
+https://github.com/jtdev/spring-feign-data-rest-example
+https://github.com/joshlong/not-a-last-minute-demo
