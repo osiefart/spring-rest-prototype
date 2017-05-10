@@ -16,6 +16,7 @@
         <module>eureka-service</module>
         <module>api-gateway</module>
         <module>hystrix-dashboard</module>
+        <module>finapi-service</module>
     </modules>
 
 </project>
