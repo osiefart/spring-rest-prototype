@@ -42,19 +42,21 @@
 		</dependency>
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
-			<artifactId>spring-cloud-starter-contract-verifier</artifactId>
-			<scope>compile</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.cloud</groupId>
 			<artifactId>spring-cloud-starter-contract-stub-runner</artifactId>
 			<scope>compile</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.example</groupId>
 			<artifactId>finapi-service-impl</artifactId>
+			<classifier>stubs</classifier>
 			<version>0.0.1-SNAPSHOT</version>
-			<scope>stubs</scope>
+			<scope>compile</scope>
+			<exclusions>
+				<exclusion>
+					<groupId>*</groupId>
+					<artifactId>*</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 	</dependencies>
 

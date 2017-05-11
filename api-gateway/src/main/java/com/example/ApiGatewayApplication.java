@@ -13,7 +13,6 @@ import org.springframework.hateoas.config.EnableHypermediaSupport;
 @SpringBootApplication
 @EnableFeignClients
 @EnableHypermediaSupport(type = EnableHypermediaSupport.HypermediaType.HAL)
-@AutoConfigureStubRunner(ids = {"com.example:finapi-service:0.0.1-SNAPSHOT:stubs:6565"}, workOffline = true)
 public class ApiGatewayApplication {
 
 
